@@ -13,7 +13,7 @@ npm run dev
 
 ## Test cases
 
-- - increments the counter.
-- - decrements the counter.
+- `+` increments the counter.
+- `-` decrements the counter.
 - The counter cannot go above 10.
 - The counter cannot go below 0.

@@ -1,0 +1,14 @@
+@startuml
+title Diagrama de clases - Contador Vue
+
+class Contador {
+  - valor: number
+  - minimo: number
+  - maximo: number
+  + incrementar(): void
+  + decrementar(): void
+}
+
+Contador --> "Vue App" : úsase en
+
+@enduml
